@@ -132,6 +132,7 @@ body {
     border: 2px solid rgb(255, 0, 162);
     height: 400px;
     width: 35%;
+    border-radius: 50%;
   }
   .p1-description-container{
     font-size: 45px;
@@ -152,4 +153,8 @@ body {
     color: red;
     font-size: 40px;
 
+  }
+  .img-class{
+    border-radius: 50%;
+    margin: 50px;
   }
