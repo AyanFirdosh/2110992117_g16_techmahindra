@@ -1,0 +1,38 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.skill {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill h2 {
+    margin-top: 0;
+}
+
+.skill ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill ul li {
+    margin-bottom: 10px;
+}
+.body-container h1{
+    text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .skill {
+        width: 100%;
+    }
+}
